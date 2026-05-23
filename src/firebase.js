@@ -2,15 +2,17 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDM5ikuZ_z3cUmkuWAqCUTltrELKN5TvAU",
-  authDomain: "glowup-33df7.firebaseapp.com",
-  projectId: "glowup-33df7",
-  storageBucket: "glowup-33df7.firebasestorage.app",
-  messagingSenderId: "538377398549",
-  appId: "1:538377398549:web:91a6d83bb8acb4c4e9611c"
+  apiKey: "AIzaSyBhCUmqRYWl-JCAq9I0Dy1rfug-jkl35A8",
+  authDomain: "glow-up-d9847.firebaseapp.com",
+  projectId: "glow-up-d9847",
+  storageBucket: "glow-up-d9847.firebasestorage.app",
+  messagingSenderId: "1056800261849",
+  appId: "1:1056800261849:web:cbe8a7f9fbf991c45a60c8"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
